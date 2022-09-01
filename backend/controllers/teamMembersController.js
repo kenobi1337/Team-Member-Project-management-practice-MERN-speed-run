@@ -21,7 +21,7 @@ const createTeamMember = async (req, res) => {
         ClientName,
         ClientType,
         AvailableHours,
-        TeamMembersHours } = req.body
+        TeamMembersHours } = req.body.body
 
     try {
         const createdTeamMember = await TeamMembers.create({
