@@ -7,6 +7,7 @@ import {
 
 import Home from './pages/Home/Home'
 import Setup from './pages/Setup/Setup'
+import Report from './pages/report/Report'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/setup" element={<Setup />} />
+            <Route path="/report" element={<Report />}/>
         </Routes>
       </BrowserRouter>
     </div>
